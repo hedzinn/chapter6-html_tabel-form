@@ -11,9 +11,9 @@
         <label for="text">Isi Pesan:</label>
         <input type="text" name="text" id="text">
         <label for="password">Password :</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" required>
         <label for="email">email :</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
         <label for="url">Kirim URl :</label>
         <input type="url" name="url" id="url">
         <label for="number">Nomor Favorid :</label>
@@ -23,8 +23,15 @@
         <label for="date">Tanggal :</label>
         <input type="date" name="date" id="date">
         <label for="file">Masukan File :</label>
-        <input type="file" name="file" id="file">
-        
+        <input type="file" name="file" id="file"><br>
+        <h2>Pilih jenis Kelamin</h2><br>
+        <input type="radio" name="kelamin" id="pria" value="pria"><label for="pria">Laki - Laki :</label>
+        <input type="radio" name="kelamin" id="perempuan" value="perempuan"><label for="perempuan">Perempuan :</label><br>
+        <h2>Daftar Hobi :</h2>
+        <input type="checkbox" name="hobi" id="hobi1" value="olahraga"><label for="hobi1">Olahraga</label>
+        <input type="checkbox" name="hobi" id="hobi2" value="membaca"><label for="hobi2">Membaca</label>
+        <input type="checkbox" name="hobi" id="hobi3" value="menonton"><label for="hobi3">Menonton</label>
+        <input type="submit" value="Kirim">
     </form>
 </body>
 </html>
