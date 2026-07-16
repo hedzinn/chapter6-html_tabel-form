@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menggabungkan tabel & form jadi satu</title>
+</head>
+<body>
+    <h1>Menggabungkan Tabel & Form Jadi Satu</h1>
+    <table border="1" cellspacing="10" cellpandding="8">
+        <tr>
+            <td align="right"><label for="text">text :   </label>
+            <td><input type="text" name="text" id="text" autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="email">Email:</label></td>
+            <td><input type="email" name="email" id="email" required placeholder="Wajib isi Email"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="password">Password:</label></td>
+            <td><input type="password" name="password" id="password" required placeholder="Wajib isi Password"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="number">Number:</label></td>
+            <td><input type="number" name="number" id="number"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="tel">Tel: </label></td>
+            <td><input type="tel" name="tel" id="tel"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="color">Color fevorite:</label></td>
+            <td><input type="color" name="color" id="color"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="date">Tanggal Lahir:</label></td>
+            <td><input type="date" name="date" id="date" max="1-1-2030" min="1-1-2000"></td>
+        </tr>
+        <tr>
+            <td align="right"><label for="file">Kirim File:</label></td>
+            <td><input type="file" name="file" id="file"></td>
+        </tr>
+        <tr>
+            <td align="center"><input type="radio" name="Kelamin" id="Pria" value="Pria"><label for="Kelamin">Laki - Laki</label></td>
+            <td align="center"><input type="radio" name="Kelamin" id="Perempuan" value="Perempuan"><label for="Kelamin">Perempuan</label></td>
+        </tr>
+        <tr>
+            <td align="center"colspan="2"><input type="checkbox" name="hobby1" id="hobby1" value="olahraga"><label for="hobby1">Olahraga</label><br> <input type="checkbox" name="hobby2" id="hobby2" value="membaca"><label for="hobby2">Membaca</label><br><input type="checkbox" name="hobby3" id="hobby3" value="coding"><label for="hobby3">Coding</label><br></td>
+        </tr>
+        <tr>
+            <td align="center"colspan="2"><select name="kota" id="kota">
+            <option value="">-- Pilih Kota --</option>
+            <option value="jakarta">Jakarta</option>
+            <option value="palangkaraya">Palangkaraya</option>
+            <option value="solo">Solo</option>
+            <option value="bandung">Bandung</option>
+        </select></td>
+        </tr>
+        <tr>
+            <td align="center"colspan="2"><textarea name="pesan" id="pesan" rows="5" placeholder="Wajib mengisi pesan ini..."></textarea><br></td>
+            
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><input type="submit" value="Kirim"></td>
+        </tr>
+        
+    </table>
+</body>
+</html>
