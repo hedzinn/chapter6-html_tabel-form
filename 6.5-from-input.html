@@ -6,34 +6,27 @@
     <title>Belajar form</title>
 </head>
 <body>
-    <h1>Belajar form html</h1>
+    <h1>Belajar Coding HTML form</h1>
     <form>
-        <label for="text">Isi Pesan:</label>
-        <input type="text" name="text" id="text">
-        <label for="password">Password :</label>
-        <input type="password" name="password" id="password" required>
-        <label for="email">email :</label>
-        <input type="email" name="email" id="email" required>
-        <label for="url">Kirim URl :</label>
-        <input type="url" name="url" id="url">
-        <label for="number">Nomor Favorid :</label>
-        <input type="number" name="number" id="unmber">
-        <label for="tel">Telphon :</label>
-        <input type="tel" name="tel" id="tel">
-        <label for="date">Tanggal :</label>
-        <input type="date" name="date" id="date">
-        <label for="file">Masukan File :</label>
-        <input type="file" name="file" id="file"><br>
-        <h2>Pilih jenis Kelamin</h2><br>
-        <input type="radio" name="kelamin" id="pria" value="pria"><label for="pria">Laki - Laki :</label>
-        <input type="radio" name="kelamin" id="perempuan" value="perempuan"><label for="perempuan">Perempuan :</label><br>
-        <h2>Daftar Hobi :</h2>
-        <input type="checkbox" name="hobi" id="hobi1" value="olahraga"><label for="hobi1">Olahraga</label>
-        <input type="checkbox" name="hobi" id="hobi2" value="membaca"><label for="hobi2">Membaca</label>
-        <input type="checkbox" name="hobi" id="hobi3" value="menonton"><label for="hobi3">Menonton</label><br>
-        <label for="color">Warna :</label>
-        <input type="color" name="color" id="color"><br>
+        <label for="email">Email :</label><input type="email" name="email" id="email" required placeholder="Wajib isi Email"><br>
+        <label for="password">Password :</label><input type="password" name="password" id="password" required placeholder="Wajib isi Password"><br>
+        <label for="number">Number :</label><input type="number" name="number" id="number"><br>
+        <label for="tel">Tel : </label><input type="tel" name="tel" id="tel"><br>
+        <label for="color">Color fevorite :</label><input type="color" name="color" id="color"><br>
+        <label for="date">Tanggal Lahir :</label><input type="date" name="date" id="date" max="1-1-2030" min="1-1-2000"><br>
+        <label for="file">Kirim File :</label><input type="file" name="file" id="file">
+        <h2>Pilih jenis kelamin</h2><br>
+        <input type="radio" name="Kelamin" id="Pria" value="Pria"><label for="Kelamin">Laki - Laki</label><br>
+        <input type="radio" name="Kelamin" id="Perempuan" value="Perempuan"><label for="Kelamin">Perempuan</label><br>
+        <h2>Pilih hobi yang kamu suka : </h2>
+        <p>Boleh Lebih Dari 1 </p><br>
+        <input type="checkbox" name="membaca" id="hobi1" value="membaca"><label for="membaca">membaca</label><br>
+        <input type="checkbox" name="olahraga" id="hobi1" value="olahraga"><label for="olahraga">olahraga</label><br>
+        <input type="checkbox" name="menggambar"id="hobi" value="menggambar"><label for="menggambar">menggambar</label><br>
+
         <input type="submit" value="Kirim">
+
     </form>
+    
 </body>
 </html>
